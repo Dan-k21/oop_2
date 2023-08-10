@@ -7,17 +7,17 @@
 <body>
 <div id="form-add"></div>
 <center>
-    <h1>My Store</h1>
-    <button onclick="showFormAdd()">Add Product</button>
-    <table>
-        <tr>
+    <h1 style="color: deeppink">My Store</h1>
+    <button onclick="showFormAdd()" style="color: deeppink">Add Product</button>
+    <table border="1" style="border: 1px deeppink">
+        <tr style="color: deeppink">
             <th>ID</th>
             <th>Name</th>
             <th>Quantity</th>
             <th>Price</th>
-            <th>Action</th>
+            <th colspan="2">Action</th>
         </tr>
-        <tbody id="products"></tbody>
+        <tbody id="products" style="color: deeppink"></tbody>
     </table>
 </center>
 <script src="product.js"></script>
